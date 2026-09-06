@@ -1,0 +1,116 @@
+#pagewrap {
+width:698px;
+margin:10px auto 10px auto;
+}
+
+#leftshade {
+float:left;
+}
+
+#leftside {
+margin-top:10px;
+margin-left:10px;
+float:left;
+}
+
+#leftside_nav {
+width:170px;
+min-height:300px;
+margin-top:10px;
+}
+
+#fullwidthtext {
+width:688px;
+float:left;
+}
+
+#rightside {
+width:508px;
+float:left;
+}
+
+#rightside_top {
+margin-top:11px;
+width:496px;
+height:38px;
+background:#000054;
+
+padding-top:12px;
+text-align:center;
+font-family: Verdana;
+font-size:16pt;
+color: #fff;
+}
+
+#rightshade {
+float:left;
+}
+
+#cleardiv {
+clear:both;
+}
+
+#footer {
+border:#999999 0px solid;
+text-align:center;
+font-family:arial;
+font-size:10px;
+color:#999999;
+}
+
+
+.menu
+{
+	font-family: Verdana; 
+	font-size: 10px;
+	font-weight: 900;
+	color: #999999;
+	text-decoration: none;
+	line-height:250%;
+}
+
+.menu:hover
+{
+	color: #c81028;
+}
+
+
+.link
+{
+	font-family: Verdana; 
+	font-size: 8pt;
+	color: #4f6e8b;
+	text-decoration: none
+}
+
+.link:hover
+{
+	font-family: Verdana; 
+	font-size: 8pt;
+	color: #4f6e8b;
+	text-decoration: underline
+}
+
+.contactLink
+{
+	font-family: Verdana; 
+	font-size: 9pt;
+	color: #4f6e8b;
+	text-decoration: none
+}
+
+.contactLink:hover
+{
+	font-family: Verdana; 
+	font-size: 9pt;
+	color: #4f6e8b;
+	text-decoration: underline
+}
+
+.title
+{
+	font-family: Verdana; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	color: #000054;
+}

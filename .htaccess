@@ -1,0 +1,16 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+ErrorDocument 400 /errorpages/error400.html
+ErrorDocument 401 /errorpages/error401.html
+ErrorDocument 403 /errorpages/error403.html
+ErrorDocument 404 /errorpages/error404.html
+ErrorDocument 500 /errorpages/error500.html
+
+AuthUserFile /home/a1921319/public_html/.htpasswd
+AuthType Basic
+AuthName "RDAVN Restricted Area"
+
+<Files "investors.html">
+  Require valid-user
+</Files>
+
